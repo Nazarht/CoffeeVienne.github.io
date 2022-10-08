@@ -122,6 +122,57 @@ header a {
 
 /* Final Section rules */
 
+.final {
+    background-color: #6a432d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.final-line {
+    background-color: black;
+    color: white;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.final-line h2 {
+    font-size: 3.5rem;
+}
+
 .final-box {
-    
+    background-image: url(./resources/nathan-dumlao-eksqjXTLpak-unsplash.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+}
+
+.final-box img {
+    width: 40%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer section rules */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 30vh;
+}
+
+footer h3 {
+    margin: 10px ;
 }
